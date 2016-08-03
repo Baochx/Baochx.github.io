@@ -1,0 +1,6 @@
+body {background: url() repeat-x fixed center; opacity:0.4
+filter:alpha(opacity=40);}
+h1 {text-align: center;}
+
+#container {background:#E0E0E0;}
+#wrapper {padding:.1em; width:80%; height:77em; margin-left:auto; margin-right:auto; border-right: 1px solid #3c5769; border-left: 1px solid #3c5769;}
