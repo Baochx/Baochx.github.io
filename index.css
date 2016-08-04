@@ -1,6 +1,54 @@
-body {background: url() repeat-x fixed center; opacity:0.4
-filter:alpha(opacity=40);}
-h1 {text-align: center;}
+body {background: rgba(248,248,248,1);}
+ul,li {font-family:微软雅黑, serif; font-size: 14px;}
+table,th,td {text-align:justify; font-family: "Microsoft YaHei", "Hiragino Sans GB", serif;}
+a {color:#7B68EE; text-decoration: none; font-weight: normal;}
 
-#container {background:#E0E0E0;}
-#wrapper {padding:.1em; width:80%; height:77em; margin-left:auto; margin-right:auto; border-right: 1px solid #3c5769; border-left: 1px solid #3c5769;}
+#wrapper {width:80%; margin-left:auto; margin-right:auto; border-right: 1px solid gray; border-left: 1px solid gray; padding: 0em 1em;}
+#container {background:	#fff;}
+
+#scene img {position:center; width: 1010px; height: 205px; }
+#scene h1 { position: absolute; top:40px; left:168px; font: 1.8em 宋体; color: #fff; }
+#scene h2 { position: absolute; top:90px; left:168px; font: 1.2em 微软雅黑; color: #fff; }
+
+#col_left {float:left; background: #fff; width:44em; margin-top: .4em;}
+#knowledge {float:left; border-bottom: 1px solid gray; margin-top: .8em;}
+#school_experience {float:left; border-bottom: 1px solid gray; margin-top: 0.8em;}
+#project {float:left; width: 43.4em; border-bottom: 1px solid gray; margin-top: 0.8em;}
+#job {float:left; width: 43.4em; border-bottom: 1px solid gray; margin-top: 0.8em;}
+#col_left p {font-family: 黑体; background:#E8E8E8; padding:5px; width: 42.8em;}
+#person .p_table p {font-family: 黑体; background:#E8E8E8; padding:5px; width:30em;}
+#person {float:left; background: #fff; width:43.4em; border-bottom: 1px solid gray;}
+#person .p_table {float:left;}
+#person .head_image {float:right; margin: 1em;}
+#person .head_image img {width: 115px; height:140px;}
+#job_plan {float:left; border-bottom: 1px solid gray; margin-top: 0.8em;}
+
+#col_right {float:right;  background: #fff; width:18em; margin-top: .4em}
+#col_right .transbox .transtext p {background: #fff; color:#1f3444; line-height: 20px;font-weight:500; font-family:"Hiragino Sans GB", "Microsoft YaHei"; font-size: 14px;}
+#col_right .transbox .transtext p span {color:#ff9900}
+#col_right .transbox {margin-bottom:2em; background: url('images/intro_text_bg1.jpg') center;}
+#col_right .transbox .transtext {padding:5px; margin:0px 15px; background-color: #ffffff;
+								/* for IE */
+								filter:alpha(opacity=70);
+								/* CSS3 standard */
+								opacity:0.7; }
+#col_right .hobbies {margin:.1em; text-align: center;}
+#col_right .hobbies .coding {margin-top: 3em; margin-bottom: 2em;}
+#col_right .hobbies .running {margin-top: 2em; margin-bottom: 2em;}
+#col_right .hobbies .literature {margin-top: 2em; margin-bottom: 3em;}
+#col_right .link img {width:88px; height:88px;margin-top: 1em;}
+#col_right .side_p p {font-family: 黑体; background:#E8E8E8; padding:4px;}
+#col_right .hobbies .coding a {background-color:rgba(0,153,255,0.3); border-radius: 5px; padding:10px; font-weight:normal; font-size: 25px;}
+#col_right .hobbies .coding a:hover {background-color:rgba(0, 153, 255, 0.8);}
+#col_right .hobbies .running a {background-color:rgba(255, 102, 255, 0.3); border-radius: 5px; padding:10px; font-weight:normal; font-size: 25px;}
+#col_right .hobbies .running a:hover {background-color:rgba(255, 102, 255, 0.8);}
+#col_right .hobbies .literature a {background-color:rgba(255, 204, 0, 0.3); border-radius: 5px; padding:10px; font-weight:normal; font-size: 25px;}
+#col_right .hobbies .literature a:hover {background-color:rgba(255, 204, 0, 0.8);}
+
+#col_right .hobbies a {color:#fff;}
+
+.clear { background:#fff; clear: both;}
+
+#footer {margin-top:2em; text-align: center; width: 63em;}
+#footer span {color:#fff; background:#ff9900; border-radius: 5px; box-shadow: 4px 4px 2px #888888; padding:5px; font-weight:bold; font-size: 35px;}
+
