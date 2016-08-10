@@ -6,9 +6,9 @@ a {color:#7B68EE; text-decoration: none; font-weight: normal;}
 #wrapper {width:80%; margin-left:auto; margin-right:auto; border-right: 1px solid gray; border-left: 1px solid gray; padding: 0em 1em;}
 #container {background:	#fff;}
 
-#scene img {position:center; width: 1010px; height: 205px; }
-#scene h1 { position: absolute; top:40px; left:168px; font: 1.8em 宋体; color: #fff; }
-#scene h2 { position: absolute; top:90px; left:168px; font: 1.2em 微软雅黑; color: #fff; }
+#scene img {position:center; width: 1010px; height: 180px; }
+#scene h1 { position: absolute; top:35px; left:160px; font: 1.8em 宋体; color: #fff; }
+#scene h2 { position: absolute; top:85px; left:160px; font: 1.2em 微软雅黑; color: #fff; }
 
 #col_left {float:left; background: #fff; width:44em; margin-top: .4em;}
 #knowledge {float:left; border-bottom: 1px solid gray; margin-top: .8em;}
